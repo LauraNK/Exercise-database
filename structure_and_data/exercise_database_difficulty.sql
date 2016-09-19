@@ -18,27 +18,27 @@ USE `exercise_database`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `equipment`
+-- Table structure for table `difficulty`
 --
 
-DROP TABLE IF EXISTS `equipment`;
+DROP TABLE IF EXISTS `difficulty`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `equipment` (
-  `equipment_id` int(11) NOT NULL AUTO_INCREMENT,
-  `equipment_name` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`equipment_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+CREATE TABLE `difficulty` (
+  `difficulty_id` int(11) NOT NULL AUTO_INCREMENT,
+  `difficulty_name` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`difficulty_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `equipment`
+-- Dumping data for table `difficulty`
 --
 
-LOCK TABLES `equipment` WRITE;
-/*!40000 ALTER TABLE `equipment` DISABLE KEYS */;
-INSERT INTO `equipment` VALUES (1,'Bodyweight');
-/*!40000 ALTER TABLE `equipment` ENABLE KEYS */;
+LOCK TABLES `difficulty` WRITE;
+/*!40000 ALTER TABLE `difficulty` DISABLE KEYS */;
+INSERT INTO `difficulty` VALUES (1,'Easy'),(2,'Medium'),(3,'Hard');
+/*!40000 ALTER TABLE `difficulty` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
