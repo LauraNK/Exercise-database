@@ -28,7 +28,7 @@ CREATE TABLE `bodypart` (
   `bodypart_id` int(11) NOT NULL AUTO_INCREMENT,
   `bodypart_name` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`bodypart_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,6 +37,7 @@ CREATE TABLE `bodypart` (
 
 LOCK TABLES `bodypart` WRITE;
 /*!40000 ALTER TABLE `bodypart` DISABLE KEYS */;
+INSERT INTO `bodypart` VALUES (1,'Core'),(2,'Fullbody'),(3,'Lower'),(4,'Upper');
 /*!40000 ALTER TABLE `bodypart` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-09-18  1:46:04
+-- Dump completed on 2016-09-18 20:25:03

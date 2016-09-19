@@ -28,7 +28,7 @@ CREATE TABLE `exercise_type` (
   `type_id` int(11) NOT NULL AUTO_INCREMENT,
   `type_name` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`type_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,6 +37,7 @@ CREATE TABLE `exercise_type` (
 
 LOCK TABLES `exercise_type` WRITE;
 /*!40000 ALTER TABLE `exercise_type` DISABLE KEYS */;
+INSERT INTO `exercise_type` VALUES (1,'Balance'),(2,'Cardio'),(3,'Flexibility'),(4,'Strength');
 /*!40000 ALTER TABLE `exercise_type` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-09-18  1:46:04
+-- Dump completed on 2016-09-18 20:25:02

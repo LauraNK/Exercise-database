@@ -48,7 +48,7 @@ CREATE TABLE `exercise` (
 
 LOCK TABLES `exercise` WRITE;
 /*!40000 ALTER TABLE `exercise` DISABLE KEYS */;
-INSERT INTO `exercise` VALUES (1,'Air squat','Stand with your feet slightly wider than hip width apart. Turn your toes out slightly and place your weight into your heels. Look straight ahead and keep your chest up as you bend your knees. Push your butt back as if you\'re about to sit in a chair. Make sure your knees track over your ankles.',NULL,NULL,NULL,NULL),(2,'Forearm plank','Lie facedown on a mat and place your elbows under your shoulders with your forearms on the floor. With your legs extended, tuck your toes and contract your core. Lift your body off the ground so only your toes and forearms are touching, creating a straight line from your shoulders to your heels. ',NULL,NULL,NULL,NULL);
+INSERT INTO `exercise` VALUES (1,'Air squat','Stand with your feet slightly wider than hip width apart. Turn your toes out slightly and place your weight into your heels. Look straight ahead and keep your chest up as you bend your knees. Push your butt back as if you\'re about to sit in a chair. Make sure your knees track over your ankles.',3,1,4,NULL),(2,'Forearm plank','Lie facedown on a mat and place your elbows under your shoulders with your forearms on the floor. With your legs extended, tuck your toes and contract your core. Lift your body off the ground so only your toes and forearms are touching, creating a straight line from your shoulders to your heels. ',1,1,4,NULL);
 /*!40000 ALTER TABLE `exercise` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -61,4 +61,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-09-18  1:46:04
+-- Dump completed on 2016-09-18 20:25:03
