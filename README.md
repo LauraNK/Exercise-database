@@ -17,3 +17,6 @@ I'm populating this database for a workout generator web app since I couldn't fi
 
 ###Body parts
 Currently split into upper, lower, full body, and core. 
+
+###Exercise type
+Balance, cardio, flexibility, and strength.
